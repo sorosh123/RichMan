@@ -1,1 +1,1 @@
-worker: indexedDB.js
+worker: node index.js
