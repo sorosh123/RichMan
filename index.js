@@ -160,4 +160,4 @@ bot.on("message", async message => {
   channel.send(`Welcome to the server, ${member}`);
 });
 
-bot.login(tokenfile.token);
+bot.login(process.env.BOT_TOKEN);
